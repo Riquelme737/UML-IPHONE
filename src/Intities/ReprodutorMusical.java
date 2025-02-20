@@ -1,3 +1,5 @@
+package Intities;
+
 public interface ReprodutorMusical {
 
     void tocarMusica();

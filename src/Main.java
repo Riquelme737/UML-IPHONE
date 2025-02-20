@@ -1,3 +1,5 @@
+import Intities.Iphone;
+
 public class Main {
     public static void main(String[] args) {
         Iphone iphone = new Iphone("Iphone 8", "+55 (21) 4002-8902");

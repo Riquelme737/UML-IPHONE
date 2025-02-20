@@ -1,7 +1,9 @@
+package Intities;
+
 public abstract class Smartphone {
 
-    private String modelo;
-    private String numero;
+    protected String modelo;
+    protected String numero;
 
     public Smartphone(String modelo, String numero) {
         this.modelo = modelo;
@@ -30,7 +32,7 @@ public abstract class Smartphone {
 
     @Override
     public String toString() {
-        return "Smartphone{" +
+        return "Intities.Smartphone{" +
                 "modelo='" + modelo + '\'' +
                 ", numero='" + numero + '\'' +
                 '}';
